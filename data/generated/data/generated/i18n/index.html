@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포켓몬 포획 도감</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="appTitle"></h1>
+      <p id="appSubtitle"></p>
+    </header>
+
+    <section class="controls">
+      <label><span id="labelViewMode"></span><select id="viewMode"></select></label>
+      <label id="generationWrap"><span id="labelGeneration"></span><select id="generationSelect"></select></label>
+      <label id="seriesWrap"><span id="labelSeries"></span><select id="seriesSelect"></select></label>
+      <input id="searchInput" />
+    </section>
+
+    <main>
+      <section>
+        <h2 id="listTitle"></h2>
+        <div id="gameLegend" class="legend"></div>
+        <ul id="pokemonList"></ul>
+      </section>
+
+      <section>
+        <h2 id="detailTitle"></h2>
+        <div id="pokemonDetail"></div>
+        <h3 id="captureTitle"></h3>
+        <div id="captureDetail"></div>
+      </section>
+    </main>
+
+    <template id="pokemonItemTpl">
+      <li class="pokemon-item">
+        <button class="pokemon-main" type="button"></button>
+        <div class="title-icons"></div>
+      </li>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
