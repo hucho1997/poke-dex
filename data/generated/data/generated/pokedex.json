@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "locale": "ko-KR",
+  "games": [
+    {"versionGroupId":"firered-leafgreen","label":"FR/LG","generation":3,"versions":[{"gameId":"firered","label":"파이어레드"},{"gameId":"leafgreen","label":"리프그린"}]},
+    {"versionGroupId":"diamond-pearl","label":"D/P","generation":4,"versions":[{"gameId":"diamond","label":"다이아"},{"gameId":"pearl","label":"펄"}]},
+    {"versionGroupId":"heartgold-soulsilver","label":"HG/SS","generation":4,"versions":[{"gameId":"heartgold","label":"하트골드"},{"gameId":"soulsilver","label":"소울실버"}]}
+  ],
+  "pokemon": [
+    {
+      "dexNo": 172,
+      "nameKo": "피츄",
+      "gen": 2,
+      "types": ["전기"],
+      "abilities": ["정전기", "피뢰침"],
+      "heightM": 0.3,
+      "weightKg": 2.0,
+      "baseStats": {"hp":20,"atk":40,"def":15,"spa":35,"spd":35,"spe":60},
+      "evolution": {"prev": null, "next": [25], "chain": [172,25,26], "forms": []}
+    },
+    {
+      "dexNo": 25,
+      "nameKo": "피카츄",
+      "gen": 1,
+      "types": ["전기"],
+      "abilities": ["정전기", "피뢰침"],
+      "heightM": 0.4,
+      "weightKg": 6.0,
+      "baseStats": {"hp":35,"atk":55,"def":40,"spa":50,"spd":50,"spe":90},
+      "evolution": {"prev": 172, "next": [26], "chain": [172,25,26], "forms": []}
+    },
+    {
+      "dexNo": 26,
+      "nameKo": "라이츄",
+      "gen": 1,
+      "types": ["전기"],
+      "abilities": ["정전기", "피뢰침"],
+      "heightM": 0.8,
+      "weightKg": 30.0,
+      "baseStats": {"hp":60,"atk":90,"def":55,"spa":90,"spd":80,"spe":110},
+      "evolution": {"prev": 25, "next": [], "chain": [172,25,26], "forms": []}
+    },
+    {
+      "dexNo": 133,
+      "nameKo": "이브이",
+      "gen": 1,
+      "types": ["노말"],
+      "abilities": ["도주", "적응력", "위험예지"],
+      "heightM": 0.3,
+      "weightKg": 6.5,
+      "baseStats": {"hp":55,"atk":55,"def":50,"spa":45,"spd":65,"spe":55},
+      "evolution": {"prev": null, "next": [134,135,136], "chain": [133,134,135,136], "forms": []}
+    }
+  ]
+}
