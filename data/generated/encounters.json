@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "locale": "ko-KR",
+  "encounters": {
+    "172": {
+      "versionGroups": {
+        "diamond-pearl": {
+          "status": "unknown",
+          "versions": {
+            "diamond": {"status":"unknown","locations":[],"specialMethods":[]},
+            "pearl": {"status":"unknown","locations":[],"specialMethods":[]}
+          }
+        }
+      }
+    },
+    "25": {
+      "versionGroups": {
+        "firered-leafgreen": {
+          "status": "available",
+          "versions": {
+            "firered": {"status":"available","locations":["무인발전소"],"specialMethods":[]},
+            "leafgreen": {"status":"available","locations":["무인발전소"],"specialMethods":[]}
+          }
+        },
+        "diamond-pearl": {
+          "status": "available",
+          "versions": {
+            "diamond": {"status":"available","locations":["영원의 숲"],"specialMethods":["포켓트레"]},
+            "pearl": {"status":"unknown","locations":[],"specialMethods":[]}
+          }
+        },
+        "heartgold-soulsilver": {
+          "status": "available",
+          "versions": {
+            "heartgold": {"status":"available","locations":["상록숲"],"specialMethods":["대량발생","호연 사운드"]},
+            "soulsilver": {"status":"available","locations":["상록숲"],"specialMethods":["신오 사운드"]}
+          }
+        }
+      }
+    },
+    "26": {
+      "versionGroups": {
+        "diamond-pearl": {
+          "status": "unavailable",
+          "versions": {
+            "diamond": {"status":"unavailable","locations":[],"specialMethods":[]},
+            "pearl": {"status":"unavailable","locations":[],"specialMethods":[]}
+          }
+        }
+      }
+    },
+    "133": {
+      "versionGroups": {
+        "firered-leafgreen": {
+          "status": "available",
+          "versions": {
+            "firered": {"status":"available","locations":["무지개시티 게임코너"],"specialMethods":["이벤트/증정"]},
+            "leafgreen": {"status":"available","locations":["무지개시티 게임코너"],"specialMethods":["이벤트/증정"]}
+          }
+        },
+        "diamond-pearl": {
+          "status": "available",
+          "versions": {
+            "diamond": {"status":"available","locations":["포켓몬 저택"],"specialMethods":[]},
+            "pearl": {"status":"available","locations":["포켓몬 저택"],"specialMethods":[]}
+          }
+        }
+      }
+    }
+  }
+}
